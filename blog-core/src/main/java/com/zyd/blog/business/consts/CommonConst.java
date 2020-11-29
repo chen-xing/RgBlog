@@ -28,7 +28,7 @@ public class CommonConst {
     /**
      * 默认的数据呈现的比例
      */
-    public static final int DEFAULT_VIEWDATA_RATIO = 19;
+    public static final int DEFAULT_VIEWDATA_RATIO = 1;
 
     /**
      * 上传的图片的后缀

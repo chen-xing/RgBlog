@@ -39,22 +39,7 @@
 
 	<select id="findPageBreakByCondition" parameterType="com.zyd.blog.business.vo.ArticleConditionVO" resultMap="rm">
 		SELECT
-			a.id,
-			a.title,
-			a.user_id,
-			a.cover_image,
-			a.qrcode_path,
-			a.is_markdown,
-			a.top,
-			a.type_id,
-			a.`status`,
-			a.recommended,
-			a.original,
-			a.description,
-			a.keywords,
-			a.`comment`,
-			a.create_time,
-			a.update_time,
+			a.*,
 			btype.id AS btype_id,
 			btype.`name` AS btype_name,
 			btype.description AS btype_description
@@ -92,6 +77,7 @@
 		<if test="keywords != null and keywords != '' ">
 			AND
 			(
+				a.content LIKE CONCAT('%',#{keywords , jdbcType=VARCHAR},'%') OR
 				a.description LIKE CONCAT('%',#{keywords , jdbcType=VARCHAR},'%') OR
 				a.keywords LIKE CONCAT('%',#{keywords , jdbcType=VARCHAR},'%')
 			)
@@ -130,24 +116,7 @@
 
 	<select id="get" parameterType="Long" resultMap="rm">
 		SELECT
-			a.id,
-			a.title,
-			a.user_id,
-			a.cover_image,
-			a.qrcode_path,
-			a.is_markdown,
-			a.content,
-			a.content_md,
-			a.top,
-			a.type_id,
-			a.`status`,
-			a.recommended,
-			a.original,
-			a.description,
-			a.keywords,
-			a.`comment`,
-			a.create_time,
-			a.update_time,
+			a.*,
 			btype.id AS btype_id,
 			btype.`name` AS btype_name,
 			btype.description AS btype_description,
@@ -158,7 +127,7 @@
 			biz_article a
 		INNER JOIN biz_type btype ON a.type_id = btype.id
 		INNER JOIN biz_article_tags atag ON a.id = atag.article_id
-		LEFT JOIN biz_tags t ON atag.tag_id = t.id
+		INNER JOIN biz_tags t ON atag.tag_id = t.id
 		WHERE
 			a.id = #{id}
 	</select>
@@ -197,24 +166,7 @@
 	<!-- 获取热门文章 -->
 	<select id="listHotArticle" resultMap="rm">
 		SELECT
-			a.id,
-			a.title,
-			a.user_id,
-			a.cover_image,
-			a.qrcode_path,
-			a.is_markdown,
-			a.top,
-			a.type_id,
-			a.`status`,
-			a.recommended,
-			a.original,
-			a.description,
-			a.keywords,
-			a.`comment`,
-			a.create_time,
-			a.update_time,
-			l.lookCount AS look_count,
-			c.commentCount AS comment_count
+			a.*, l.lookCount AS look_count
 		FROM
 			biz_article a
 		LEFT JOIN (
@@ -226,16 +178,6 @@
 			GROUP BY
 				l.article_id
 		) l ON a.id = l.article_id
-		LEFT JOIN (
-			SELECT
-				c.sid,
-				IFNULL(count(1), 0) AS commentCount
-			FROM
-				biz_comment c
-			WHERE c.`status` = 'APPROVED'
-			GROUP BY
-				c.sid
-		) c ON a.id = c.sid
 		WHERE a.status = 1
 		ORDER BY
 			l.lookCount DESC
@@ -248,6 +190,15 @@
 			biz_article a
 		WHERE
 			a.id = #{id}
+	</select>
+
+	<select id="listMaterial" resultType="String">
+		SELECT
+			a.cover_image
+		FROM
+			biz_article a
+		GROUP BY
+			a.cover_image
 	</select>
 
 	<update id="batchUpdateStatus" parameterType="map">

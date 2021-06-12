@@ -8,6 +8,7 @@
         </div>
         <div class="menu-topmenu-container pull-right">
             <ul class="list-unstyled list-inline pull-left">
+<#--                <li><a href="http://so.94rg.com/" target="_blank" class="menu_a" title="人工搜索" data-toggle="tooltip" data-placement="bottom">人工搜索</a></li>-->
                 <li><a href="${config.siteUrl}/about" class="menu_a" title="关于博客" data-toggle="tooltip" data-placement="bottom">关于本站</a></li>
                 <li><a href="${config.siteUrl}/links" class="menu_a" title="友情链接" data-toggle="tooltip" data-placement="bottom">友情链接</a></li>
             </ul>

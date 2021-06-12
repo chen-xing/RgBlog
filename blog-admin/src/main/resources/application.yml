@@ -1,6 +1,6 @@
 # Server settings
 server:
-    port: 8085
+    port: 8005
     # HTTP请求和响应头的最大量，以字节为单位，默认值为4096字节,超过此长度的部分不予处理,一般8K。解决java.io.EOFException: null问题
     max-http-header-size: 8192
     use-forward-headers: true
@@ -13,6 +13,7 @@ server:
         protocol-header: X-Forwarded-Proto
         port-header: X-Forwarded-Port
         uri-encoding: UTF-8
+        basedir: /usr/local/golden/tmp/tomcat
 # SPRING PROFILES
 spring:
     profiles:

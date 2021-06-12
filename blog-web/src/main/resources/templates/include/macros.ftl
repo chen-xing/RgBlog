@@ -60,7 +60,7 @@
         })();
     </script>
 
-    <#--    <script data-ad-client="ca-pub-3531608925757879" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+    <script data-ad-client="ca-pub-3531608925757879" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
 <#--    <canvas id="c" style="position:absolute;top:0px;left:0px;z-index:-1;margin: 0 auto;"></canvas>-->

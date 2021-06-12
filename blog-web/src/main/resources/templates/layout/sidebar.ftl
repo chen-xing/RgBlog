@@ -53,7 +53,37 @@
             <ul class="list-unstyled"></ul>
         </div>
     </div>
-    <div class="sidebar-module" style="margin:0;padding:0;border-radius:0;margin-bottom:20px;box-shadow:none;"><a href="https://url.cn/5WEs6cm" target="_blank"><img src="https://ae01.alicdn.com/kf/Hb8b2ee8bfc284689aa813ac3f79f4d4dL.jpg" alt="腾讯云优惠领取" width="100%" height="100%"> </a></div>
+    <div class="sidebar-module" style="margin:0;padding:0;border-radius:0;margin-bottom:20px;box-shadow:none;background: none;">
+<#--        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+        <!-- 右上角广告 -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-3531608925757879"
+             data-ad-slot="5127893978"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>
+            function IsPC() {
+                var userAgentInfo = navigator.userAgent;
+                var Agents = ["Android", "iPhone",
+                    "SymbianOS", "Windows Phone",
+                    "iPad", "iPod"];
+                var flag = true;
+                for (var v = 0; v< Agents.length; v++) {
+                    if (userAgentInfo.indexOf(Agents[v])> 0) {
+                        flag = false;
+                        break;
+                    }
+                }
+                return flag;
+            }
+            var flag=IsPC();
+            if(flag){
+                (adsbygoogle = window.adsbygoogle || []).push({});
+            }
+        </script>
+<#--        <a href="https://url.cn/5WEs6cm" target="_blank"><img src="https://ae01.alicdn.com/kf/Hb8b2ee8bfc284689aa813ac3f79f4d4dL.jpg" alt="腾讯云优惠领取" width="100%" height="100%"> </a>-->
+    </div>
     <div class="sidebar-module">
         <h5 class="custom-title"><i class="fa fa-tags fa-fw icon"></i><strong>标签云</strong><small></small></h5>
         <@zhydTag method="tagsList" pageSize="10">
@@ -164,4 +194,15 @@
             </@zhydTag>
         </ul>
     </div>
+<#--    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+    <!-- 右下角的广告 -->
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-3531608925757879"
+         data-ad-slot="7405738803"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
 </div>

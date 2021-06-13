@@ -2,6 +2,7 @@ package com.zyd.blog.business.entity;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.zyd.blog.business.consts.CommonConst;
 import com.zyd.blog.business.enums.ArticleStatusEnum;
 import com.zyd.blog.persistence.beans.BizArticle;
 import com.zyd.blog.persistence.beans.BizTags;
@@ -221,7 +222,7 @@ public class Article {
 
     public int getLookCount() {
         Integer lookCount = this.bizArticle.getLookCount();
-        return lookCount == null ? 0 : lookCount;
+        return lookCount == null ? 0 : lookCount * CommonConst.DEFAULT_VIEWDATA_RATIO;
     }
 
     public int getCommentCount() {
@@ -231,7 +232,7 @@ public class Article {
 
     public int getLoveCount() {
         Integer loveCount = this.bizArticle.getLoveCount();
-        return loveCount == null ? 0 : loveCount;
+        return loveCount == null ? 0 : loveCount*CommonConst.DEFAULT_VIEWDATA_RATIO;
     }
 }
 

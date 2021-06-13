@@ -267,7 +267,7 @@
         $("#verifyPassword").click(function (){
             var password = $("#password").val();
             var articleId = "${article.id}";
-            $.post("/api/RenderController/verifyArticlePassword", {articleId : articleId, password: password}, function (json) {
+            $.post("/api/verifyArticlePassword", {articleId : articleId, password: password}, function (json) {
                 $.alert.ajaxSuccess(json);
                 if(json.status === 200) {
                     $(".blog-info-body").html(json.data);

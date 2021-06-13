@@ -72,7 +72,7 @@
     <div class="col-md-12 col-sm-12 col-xs-12 top_tiles">
         <#-- 文章 -->
         <a href="/articles" class="statistics-panel">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 statistics-article" data-key="articleCount">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 statistics-article" data-key="articleCount">
                 <div class="tile-stats statistics-box">
                     <div class="icon"><i style="color: #5470c6;" class="fa fa-envira"></i></div>
                     <div class="count" style="color: #9a60b4"></div>
@@ -82,7 +82,7 @@
         </a>
         <#-- 标签 -->
         <a href="/article/tags" class="statistics-panel">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 statistics-tag" data-key="tagCount">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 statistics-tag" data-key="tagCount">
                 <div class="tile-stats statistics-box">
                     <div class="icon"><i style="color: #91cc75;" class="fa fa-tags"></i></div>
                     <div class="count" style="color: #ea7ccc"></div>
@@ -92,7 +92,7 @@
         </a>
         <#-- 分类 -->
         <a href="/article/types" class="statistics-panel">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 statistics-type" data-key="typeCount">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 statistics-type" data-key="typeCount">
                 <div class="tile-stats statistics-box">
                     <div class="icon"><i style="color: #fac858;" class="fa fa-th"></i></div>
                     <div class="count" style="color: #60c0dd"></div>
@@ -102,7 +102,7 @@
         </a>
         <#-- 评论 -->
         <a href="/comments" class="statistics-panel">
-            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 statistics-comment" data-key="commentCount">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 statistics-comment" data-key="commentCount">
                 <div class="tile-stats statistics-box">
                     <div class="icon"><i style="color: #ee6666;" class="fa fa-comments-o"></i></div>
                     <div class="count" style="color: #d7504b"></div>
@@ -111,28 +111,28 @@
             </div>
         </a>
 
-<#--        &lt;#&ndash;总访问 量&ndash;&gt;-->
-<#--        <a id="fangwen" href="#" class="statistics-panel">-->
-<#--            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 statistics-lookCount" data-key="lookCount">-->
-<#--                &lt;#&ndash;隐藏域，放进去值，方便运算&ndash;&gt;-->
-<#--                <input type="hidden" id="fangwen_inp" value="">-->
-<#--                <div class="tile-stats statistics-box">-->
-<#--                    <div class="icon"><i style="color: #73c0de;" class="fa fa-bar-chart"></i></div>-->
-<#--                    <div class="count" id="l_count_mxx" style="color: #c6e579;"></div>-->
-<#--                    <h4>访问量</h4>-->
-<#--                </div>-->
-<#--            </div>-->
-<#--        </a>-->
-<#--        &lt;#&ndash;总赞数&ndash;&gt;-->
-<#--        <a href="/articles" class="statistics-panel">-->
-<#--            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 statistics-zanCount" data-key="zanCount">-->
-<#--                <div class="tile-stats statistics-box">-->
-<#--                    <div class="icon"><i style="color: #FF6666;" class="fa fa-thumbs-o-up"></i></div>-->
-<#--                    <div class="count"></div>-->
-<#--                    <h4>总赞量</h4>-->
-<#--                </div>-->
-<#--            </div>-->
-<#--        </a>-->
+        <#--总访问 量-->
+        <a id="fangwen" href="#" class="statistics-panel">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 statistics-lookCount" data-key="lookCount">
+                <#--隐藏域，放进去值，方便运算-->
+                <input type="hidden" id="fangwen_inp" value="">
+                <div class="tile-stats statistics-box">
+                    <div class="icon"><i style="color: #73c0de;" class="fa fa-bar-chart"></i></div>
+                    <div class="count" id="l_count_mxx" style="color: #c6e579;"></div>
+                    <h4>访问量</h4>
+                </div>
+            </div>
+        </a>
+        <#--总赞数-->
+        <a href="/articles" class="statistics-panel">
+            <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 statistics-zanCount" data-key="zanCount">
+                <div class="tile-stats statistics-box">
+                    <div class="icon"><i style="color: #FF6666;" class="fa fa-thumbs-o-up"></i></div>
+                    <div class="count"></div>
+                    <h4>总赞量</h4>
+                </div>
+            </div>
+        </a>
     </div>
 </div>
 <div class="row">

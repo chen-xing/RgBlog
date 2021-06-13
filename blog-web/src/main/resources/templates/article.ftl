@@ -39,7 +39,15 @@
                         <strong>${article.title}</strong>
                     </h1>
                     <div class="blog-info-body ${article.isMarkdown?string('markdown-body editor-preview-active-side', '')}">
-                        ${article.content}
+                        <#if article.private>
+                            ${article.description!}
+                            <br>
+                            <div class="alert alert-warning alert-dismissible fade in red" role="alert">
+                                <i class="fa fa-lock fa-fw"></i> 文章已被加密，需要 <a href="javascript:void(0)" data-toggle="modal" data-target="#lockModal">输入密码</a> 才能查看文章详情
+                            </div>
+                        <#else >
+                            ${article.content}
+                        </#if>
                     </div>
                     <div class="separateline"><span>正文到此结束</span></div>
                     <div id="social" style="margin-bottom: 45px;">
@@ -218,6 +226,22 @@
         <#include "layout/sidebar.ftl"/>
     </div>
 </div>
+<div id="lockModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" data-keyboard="false">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">输入密码查看文章详情</h4>
+            </div>
+            <div class="modal-body">
+                <input type="text" name="password" id="password" class="form-control" placeholder="请输入文章密码">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="verifyPassword">确定</button>
+            </div>
+        </div>
+    </div>
+</div>
 <@footer>
     <script type="text/javascript">
         setTimeout(function () {
@@ -234,4 +258,22 @@
     <script src="https://v1.hitokoto.cn/?encode=js&c=d&select=%23hitokoto" defer></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/lib/highlight.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/simplemde@1.11.2/dist/simplemde.min.js"></script>
+    <script>
+        var isPrivate = ${article.private};
+        if(isPrivate || isPrivate == 'true') {
+            $("#lockModal").modal('show')
+        }
+
+        $("#verifyPassword").click(function (){
+            var password = $("#password").val();
+            var articleId = "${article.id}";
+            $.post("/api/RenderController/verifyArticlePassword", {articleId : articleId, password: password}, function (json) {
+                $.alert.ajaxSuccess(json);
+                if(json.status === 200) {
+                    $(".blog-info-body").html(json.data);
+                    $("#lockModal").modal('hide')
+                }
+            })
+        })
+    </script>
 </@footer>

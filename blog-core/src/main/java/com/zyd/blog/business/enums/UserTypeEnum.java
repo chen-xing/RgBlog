@@ -32,6 +32,20 @@ public enum UserTypeEnum {
         return UserTypeEnum.UNKNOW;
     }
 
+    public static String getByTypeDesc(String type) {
+        if (StringUtils.isEmpty(type)) {
+            return UserTypeEnum.UNKNOW.getDesc();
+        }
+
+        for (UserTypeEnum ut : UserTypeEnum.values()) {
+            if (ut.toString().equalsIgnoreCase(type)) {
+                return ut.getDesc();
+            }
+        }
+
+        return UserTypeEnum.UNKNOW.getDesc();
+    }
+
     public String getDesc() {
         return desc;
     }

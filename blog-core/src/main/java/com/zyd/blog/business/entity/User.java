@@ -178,6 +178,10 @@ public class User extends AbstractBO {
         return UserTypeEnum.getByType(this.sysUser.getUserType());
     }
 
+    public Object getUserTypeDescEnum() {
+        return UserTypeEnum.getByTypeDesc(this.sysUser.getUserType());
+    }
+
     public String getCompany() {
         return this.sysUser.getCompany();
     }
@@ -301,5 +305,4 @@ public class User extends AbstractBO {
     public void setUpdateTime(Date updateTime) {
         this.sysUser.setUpdateTime(updateTime);
     }
-
 }

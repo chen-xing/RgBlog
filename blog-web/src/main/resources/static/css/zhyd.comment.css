@@ -18,13 +18,13 @@ em {
     margin-bottom: 10px;
     margin-top: 20px;
     color: #fff;
-    background-color: #009a61;
-    border-color: #008151;
+    background-color: #00a4ff;
+    border-color: #00a4ff;
 }
 
 #comment-form-btn:hover {
     color: #fff !important;
-    background-color: #006741 !important;
+    background-color: #00a4ff !important;
     border-color: #00432a !important;
 }
 

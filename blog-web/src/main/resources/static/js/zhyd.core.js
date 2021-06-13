@@ -189,7 +189,7 @@
                     icon: 'fa fa-info-circle',
                     title: '友情提示',
                     content: content,
-                    type: 'green',
+                    type: 'blue',
                     typeAnimated: true,
                     autoClose: delayTime,
                     buttons: {

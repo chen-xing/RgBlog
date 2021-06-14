@@ -50,19 +50,30 @@ ps: 虽然我知道，大部分人都是来了**直接下载源代码**后就潇
 - **第三方授权登录**：集成[JustAuth](https://gitee.com/yadong.zhang/JustAuth)实现第三方授权登录
 # Demo 演示
 
-[前台demo](https://www.94rg.com/)
+[前台demo](https://www.94rg.com/)![image-20210614111027001](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111034.png)
+
+
+
+
+
+![image-20210614111303074](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111303.png)
+
+
+
+![image-20210614111400209](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111400.png)
+
+![image-20210614111928953](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111929.png)
+
 
 [后台demo(root,123456)](https://www.94rg.com/)
 
-![admin端首页](https://images.gitee.com/uploads/images/2019/0129/191117_221c6064_784199.png "admin-index.png")
-![admin端文章列表也](https://images.gitee.com/uploads/images/2019/0129/191135_21e4f61c_784199.png "admin-article.png")
-![admin端发布文章页](https://images.gitee.com/uploads/images/2019/0129/191150_0d28d51a_784199.png "admin-publish-article.png")
-![admin端系统配置页](https://images.gitee.com/uploads/images/2019/0129/191203_cc6941e4_784199.png "admin-config.png")
-![admin端文章搬运工](https://images.gitee.com/uploads/images/2019/0129/191214_5e8f3c34_784199.png "admin-spider.png")
-![admin端文章搬运工](https://images.gitee.com/uploads/images/2019/0129/191237_d015fcda_784199.png "admin-spider2.png")
-![web端首页-pc](https://images.gitee.com/uploads/images/2019/0129/191409_d2604f7d_784199.png "web-index-pc.png")
-![web端首页-mobile](https://images.gitee.com/uploads/images/2019/0129/191428_c76317e8_784199.png "web-index.png")
-![web端文章详情页](https://images.gitee.com/uploads/images/2019/0129/191448_a2777443_784199.png "web-article-detail.png")
+![image-20210614111635677](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111635.png)
+
+![image-20210614111755821](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111755.png)
+
+
+
+![image-20210614111831897](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111832.png)
 
 ----
 

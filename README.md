@@ -50,30 +50,26 @@ ps: 虽然我知道，大部分人都是来了**直接下载源代码**后就潇
 - **第三方授权登录**：集成[JustAuth](https://gitee.com/yadong.zhang/JustAuth)实现第三方授权登录
 # Demo 演示
 
-[前台demo](https://www.94rg.com/)![image-20210614111027001](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111034.png)
+[前台demo](https://www.94rg.com/)
+
+
+![首页](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/1.png)
 
 
 
+![详情页](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/2.png)
 
-
-![image-20210614111303074](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111303.png)
-
-
-
-![image-20210614111400209](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111400.png)
-
-![image-20210614111928953](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111929.png)
-
+![留言板](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/3.png)
+![手机版](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/4.png)
 
 [后台demo(root,123456)](https://www.94rg.com/)
 
-![image-20210614111635677](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111635.png)
+![后台首页](![留言板](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/5.png))
 
-![image-20210614111755821](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111755.png)
+![后台系统配置](![留言板](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/6.png))
 
+![文章列表页](![留言板](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/7.png))
 
-
-![image-20210614111831897](https://cdn.jsdelivr.net/gh/chen-xing/figure_bed/images/20210614111832.png)
 
 ----
 

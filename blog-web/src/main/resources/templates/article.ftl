@@ -259,7 +259,7 @@
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/lib/highlight.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/simplemde@1.11.2/dist/simplemde.min.js"></script>
     <script>
-        var isPrivate = ${article.private};
+        var isPrivate = ${article.private?string("true","false")};
         if(isPrivate || isPrivate == 'true') {
             $("#lockModal").modal('show')
         }

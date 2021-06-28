@@ -143,7 +143,7 @@
                                 href="https://portal.qiniu.com/signup?code=3l8yx2v0f21ci" target="_blank"
                                 title="七牛云-国内领先的企业级云服务商" data-toggle="tooltip" data-placement="bottom"
                                 rel="external nofollow">七牛云</a><#if config.recordNumber!> · <a
-                                href="http://www.miitbeian.gov.cn/publish/query/indexFirst.action" target="_blank"
+                                href="https://beian.miit.gov.cn/" target="_blank"
                                 title="查看备案信息" data-toggle="tooltip" data-placement="bottom"
                                 rel="external nofollow">${config.recordNumber}</a></#if></p>
                 </div>

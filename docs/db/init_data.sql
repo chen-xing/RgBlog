@@ -75,7 +75,7 @@ INSERT INTO `dblog`.`sys_config`(`id`, `config_key`, `config_value`, `create_tim
 # 清空友情链接表
 TRUNCATE TABLE `dblog`.`sys_link`;
 # 初始化友情链接
-INSERT INTO `dblog`.`sys_link` VALUES ('1', 'https://docs.zhyd.me', '张亚东博客', '一个程序员的个人博客', 'yadong.zhang0415@gmail.com', null, 'https://static.zhyd.me/static/img/favicon.ico', '1', '1', null, 'ADMIN', now(), now());
+INSERT INTO `dblog`.`sys_link` VALUES ('1', 'https://www.94rg.com', '人工博客', '学如逆水行舟，不进则退；心似平原走马，易放难收', 'chenxin.8910@163.com', null, 'https://www.94rg.com/img/favicon.ico', '1', '1', null, 'ADMIN', now(), now());
 
 # 清空系统通知表
 TRUNCATE TABLE `dblog`.`sys_notice`;

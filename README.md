@@ -52,22 +52,22 @@ ps: 虽然我知道，大部分人都是来了**直接下载源代码**后就潇
 
 [前台demo](https://www.94rg.com/)
 
-[![首页](https://z3.ax1x.com/2021/07/06/RTI4W8.png)](https://imgtu.com/i/RTI4W8)
+[![首页](https://z3.ax1x.com/2021/07/06/RTI4W8.png)
 
-![详情页](https://z3.ax1x.com/2021/07/06/RTolTI.png)](https://imgtu.com/i/RTolTI)
+![详情页](https://z3.ax1x.com/2021/07/06/RTolTI.png)
 
-![留言板](https://z3.ax1x.com/2021/07/06/RToGff.png)](https://imgtu.com/i/RToGff)
+![留言板](https://z3.ax1x.com/2021/07/06/RToGff.png)
 
-![手机版](https://z3.ax1x.com/2021/07/06/RToc1U.png)](https://imgtu.com/i/RToc1U)
+![手机版](https://z3.ax1x.com/2021/07/06/RToc1U.png)
 
 
 [后台demo(admin,123456)](https://www.94rg.com/)
 
-![后台首页](https://z3.ax1x.com/2021/07/06/RToH1O.png)](https://imgtu.com/i/RToH1O)
+![后台首页](https://z3.ax1x.com/2021/07/06/RToH1O.png)
 
-![后台系统配置](https://z3.ax1x.com/2021/07/06/RToXBd.png)](https://imgtu.com/i/RToXBd)
+![后台系统配置](https://z3.ax1x.com/2021/07/06/RToXBd.png)
 
-![文章列表页](https://z3.ax1x.com/2021/07/06/RTTijg.png)](https://imgtu.com/i/RTTijg)
+![文章列表页](https://z3.ax1x.com/2021/07/06/RTTijg.png)
 
 
 

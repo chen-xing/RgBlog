@@ -14,7 +14,7 @@
 
 1. 本项目配有相关[帮助文档](https://gitee.com/yadong.zhang/DBlog/wikis) 。文档中包括**基本的项目说明**、**shiro标签使用**、**七牛云配置**和一些常见的**异常问题解决方案**。使用时碰到问题请**优先**查阅【[帮助文档](https://gitee.com/yadong.zhang/DBlog/wikis)】。因为现在好多朋友问的问题大部分都写在【[帮助文档](https://gitee.com/yadong.zhang/DBlog/wikis)】中了，希望各位朋友能自己翻阅下相关资料，高效提问，避免重复问题！
 2. **提问题**前请优先阅读【[如何向开源社区提问题](https://github.com/seajs/seajs/issues/545)】&【[提问的智慧](http://www.dianbo.org/9238/stone/tiwendezhihui.htm)】
-3. **提问题**时请优先选择[Gitee Issues](https://gitee.com/yadong.zhang/DBlog/issues)（方便问题追踪和一对一解决），其次[我的博客-留言板](https://www.zhyd.me/guestbook)，再次QQ群（QQ群消息较多，提问请注意节奏、时机），最次加我QQ好友直接提问（不推荐）
+3. **提问题**时请优先选择[Gitee Issues](https://gitee.com/yadong.zhang/DBlog/issues)（方便问题追踪和一对一解决），其次[我的博客-留言板](https://www.94rg.com/guestbook)，再次QQ群（QQ群消息较多，提问请注意节奏、时机），最次加我QQ好友直接提问（不推荐）
 4. 本项目唯一官网：[https://www.94rg.com](https://www.94rg.com)  
 5. 本项目开源地址：[Github](https://github.com/chen-xing/RgBlog)
 6. 本项目修改记录，详情请移步[这里](https://github.com/chen-xing/RgBlog/blob/master/update.md)
@@ -23,7 +23,7 @@
 ----
 
 # 写在前面的话
-ps: 虽然我知道，大部分人都是来了**直接下载源代码**后就潇洒的离开，并且只有等到下次**突然想到**“我天~~我得去看看OneBlog这烂项目更新新功能了吗”的时候才会重新来到这儿，即使你重新来过，我估计你也只有两个选择：    
+ps: 虽然我知道，大部分人都是来了**直接下载源代码**后就潇洒的离开，并且只有等到下次**突然想到**“我天~~我得去看看RgBlog这烂项目更新新功能了吗”的时候才会重新来到这儿，即使你重新来过，我估计你也只有两个选择：    
 
 发现更新代码了 --> 下载源码后重复上面的步骤    
 发现没更新代码 --> 直接关闭浏览器
@@ -52,23 +52,23 @@ ps: 虽然我知道，大部分人都是来了**直接下载源代码**后就潇
 
 [前台demo](https://www.94rg.com/)
 
+[![首页](https://z3.ax1x.com/2021/07/06/RTI4W8.png)](https://imgtu.com/i/RTI4W8)
 
-![首页](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/1.png)
+![详情页](https://z3.ax1x.com/2021/07/06/RTolTI.png)](https://imgtu.com/i/RTolTI)
+
+![留言板](https://z3.ax1x.com/2021/07/06/RToGff.png)](https://imgtu.com/i/RToGff)
+
+![手机版](https://z3.ax1x.com/2021/07/06/RToc1U.png)](https://imgtu.com/i/RToc1U)
 
 
+[后台demo(admin,123456)](https://www.94rg.com/)
 
-![详情页](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/2.png)
+![后台首页](https://z3.ax1x.com/2021/07/06/RToH1O.png)](https://imgtu.com/i/RToH1O)
 
-![留言板](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/3.png)
-![手机版](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/4.png)
+![后台系统配置](https://z3.ax1x.com/2021/07/06/RToXBd.png)](https://imgtu.com/i/RToXBd)
 
-[后台demo(root,123456)](https://www.94rg.com/)
+![文章列表页](https://z3.ax1x.com/2021/07/06/RTTijg.png)](https://imgtu.com/i/RTTijg)
 
-![后台首页](![留言板](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/5.png))
-
-![后台系统配置](![留言板](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/6.png))
-
-![文章列表页](![留言板](https://gitee.com/chen-xing/RgPlusBlog/raw/master/docs/markdowImg/7.png))
 
 
 ----

@@ -2,10 +2,10 @@ package com.zyd.blog.file;
 
 import com.alibaba.fastjson.JSON;
 import com.qiniu.common.QiniuException;
-import com.qiniu.common.Region;
 import com.qiniu.http.Response;
 import com.qiniu.storage.BucketManager;
 import com.qiniu.storage.Configuration;
+import com.qiniu.storage.Region;
 import com.qiniu.storage.UploadManager;
 import com.qiniu.storage.model.DefaultPutRet;
 import com.qiniu.util.Auth;
@@ -28,10 +28,9 @@ import java.util.Date;
 public class QiniuApiClient extends BaseApiClient {
 
     private static final String DEFAULT_PREFIX = "oneblog/";
-    /**
-     * 上传的图片的后缀
-     */
-    private static final String UPLOAD_IMAGE_SUFFIX="-94rg001";
+
+    /** 上传的图片的后缀 */
+    private static final String UPLOAD_IMAGE_SUFFIX = "-94rg002";
 
     private String accessKey;
     private String secretKey;
@@ -43,19 +42,27 @@ public class QiniuApiClient extends BaseApiClient {
         super("七牛云");
     }
 
-    public QiniuApiClient init(String accessKey, String secretKey, String bucketName, String baseUrl, String uploadType) {
+    public QiniuApiClient init(
+            String accessKey,
+            String secretKey,
+            String bucketName,
+            String baseUrl,
+            String uploadType) {
         this.accessKey = accessKey;
         this.secretKey = secretKey;
         this.bucket = bucketName;
         this.path = baseUrl;
-        this.pathPrefix = StringUtils.isNullOrEmpty(uploadType) ? DEFAULT_PREFIX : uploadType.endsWith("/") ? uploadType : uploadType + "/";
+        this.pathPrefix =
+                StringUtils.isNullOrEmpty(uploadType)
+                        ? DEFAULT_PREFIX
+                        : uploadType.endsWith("/") ? uploadType : uploadType + "/";
         return this;
     }
 
     /**
      * 上传图片
      *
-     * @param is       图片流
+     * @param is 图片流
      * @param imageUrl 图片路径
      * @return 上传后的路径
      */
@@ -66,10 +73,10 @@ public class QiniuApiClient extends BaseApiClient {
         String key = FileUtil.generateTempFileName(imageUrl);
         this.createNewFileName(key, this.pathPrefix);
         Date startTime = new Date();
-        //Zone.zone0:华东
-        //Zone.zone1:华北
-        //Zone.zone2:华南
-        //Zone.zoneNa0:北美
+        // Zone.zone0:华东
+        // Zone.zone1:华北
+        // Zone.zone2:华南
+        // Zone.zoneNa0:北美
         Configuration cfg = new Configuration(Region.autoRegion());
         UploadManager uploadManager = new UploadManager(cfg);
         try {
@@ -77,7 +84,7 @@ public class QiniuApiClient extends BaseApiClient {
             String upToken = auth.uploadToken(this.bucket);
             Response response = uploadManager.put(is, this.newFileName, upToken, null, null);
 
-            //解析上传成功的结果
+            // 解析上传成功的结果
             DefaultPutRet putRet = JSON.parseObject(response.bodyString(), DefaultPutRet.class);
 
             return new VirtualFile()
@@ -87,7 +94,7 @@ public class QiniuApiClient extends BaseApiClient {
                     .setUploadEndTime(new Date())
                     .setFilePath(putRet.key)
                     .setFileHash(putRet.hash)
-                    .setFullFilePath(this.path + putRet.key+UPLOAD_IMAGE_SUFFIX);
+                    .setFullFilePath(this.path + putRet.key + UPLOAD_IMAGE_SUFFIX);
         } catch (QiniuException ex) {
             throw new QiniuApiException("[" + this.storageType + "]文件上传失败：" + ex.error());
         }
@@ -119,7 +126,9 @@ public class QiniuApiClient extends BaseApiClient {
 
     @Override
     public void check() {
-        if (StringUtils.isNullOrEmpty(this.accessKey) || StringUtils.isNullOrEmpty(this.secretKey) || StringUtils.isNullOrEmpty(this.bucket)) {
+        if (StringUtils.isNullOrEmpty(this.accessKey)
+                || StringUtils.isNullOrEmpty(this.secretKey)
+                || StringUtils.isNullOrEmpty(this.bucket)) {
             throw new QiniuApiException("[" + this.storageType + "]尚未配置七牛云，文件上传功能暂时不可用！");
         }
     }

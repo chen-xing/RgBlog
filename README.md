@@ -8,7 +8,7 @@
 
 ----
 
-# 每个star的程序员都会当上cto的，榜上留名
+## 每个star的程序员都会当上cto.榜上留名
 ![forker](http://bytecrank.com/nastyox/reporoster/php/forkersSVG.php?user=chen-xing&repo=RgBlog)
 
 ![start](http://bytecrank.com/nastyox/reporoster/php/stargazersSVG.php?user=chen-xing&repo=RgBlog)

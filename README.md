@@ -8,6 +8,11 @@
 
 ----
 
+## 每个star的程序员都是最优秀的顶级程序员.都会榜上留名
+![forker](http://bytecrank.com/nastyox/reporoster/php/forkersSVG.php?user=chen-xing&repo=RgBlog)
+
+![start](http://bytecrank.com/nastyox/reporoster/php/stargazersSVG.php?user=chen-xing&repo=RgBlog)
+
 # 重要声明
 
 **看文档！看文档！看文档！**，初次使用， 请先**看文档！**

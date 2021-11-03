@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ROOT_DIR="/home/www/blog-web"
+ROOT_DIR="./"
 APP_NAME=blog-web.jar
 NOW_DATE=$(date +%c)
 

@@ -57,7 +57,7 @@
                             </span>
                             <div class="shang-p">
                                 <div class="shang-empty"><span></span></div>
-                                <span class="shang-s"><a onclick="PaymentUtils.show();" style="cursor:pointer">赏</a> </span>
+                                <span class="shang-s"><a href="javascript:void(0)" style="cursor:pointer">荐</a> </span>
                             </div>
                             <div class="share-sd">
                                 <span class="share-s"><a href="javascript:void(0)" id="share-s" title="分享"><i class="fa fa-share-alt"></i>分享</a></span>

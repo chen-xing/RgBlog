@@ -583,7 +583,7 @@ a:-webkit-any-link {
 
 /* 返回顶部 start */
 .to-top {
-    background: url(../img/back-top.png) no-repeat left top;
+    background: url(../img/back-top.svg) no-repeat left top;
     width: 55px;
     height: 55px;
     color: #fff;
@@ -592,9 +592,9 @@ a:-webkit-any-link {
     z-index: 100;
 }
 
-.to-top:hover {
-    background: url(../img/back-top.png) no-repeat left bottom;
-}
+/*.to-top:hover {*/
+/*    background: url(../img/back-top.svg) no-repeat left bottom;*/
+/*}*/
 
 /* 返回顶部 end */
 

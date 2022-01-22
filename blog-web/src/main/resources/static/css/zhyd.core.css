@@ -584,8 +584,9 @@ a:-webkit-any-link {
 /* 返回顶部 start */
 .to-top {
     background: url(../img/back-top.svg) no-repeat left top;
-    width: 55px;
-    height: 55px;
+    background-size: 48px 48px;
+    width: 48px;
+    height: 48px;
     color: #fff;
     padding: 15px;
     border-radius: 4px;
@@ -2082,17 +2083,17 @@ nav a:first-child .meta-nav {
     /* 文章列表end */
     .to-top {
         background-position: 0 0;
-        background-size: 33px 60px;
-        width: 33px;
-        height: 29px;
+        background-size: 32px 32px;
+        width: 32px;
+        height: 32px;
     }
 
-    .to-top:hover {
-        background-position: 0 0;
-        background-size: 33px 60px;
-        width: 33px;
-        height: 29px;
-    }
+    /*.to-top:hover {*/
+    /*    background-position: 0 0;*/
+    /*    background-size: 33px 60px;*/
+    /*    width: 33px;*/
+    /*    height: 29px;*/
+    /*}*/
 }
 
 /* 窗口缩小到768px以下时 */

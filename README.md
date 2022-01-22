@@ -8,7 +8,7 @@
 
 ----
 
-## 🔥starred或fork本项目的大佬🔥
+## 💎starred或fork本项目的大佬
 ![forker](http://bytecrank.com/nastyox/reporoster/php/forkersSVG.php?user=chen-xing&repo=RgBlog)
 
 ![start](http://bytecrank.com/nastyox/reporoster/php/stargazersSVG.php?user=chen-xing&repo=RgBlog)

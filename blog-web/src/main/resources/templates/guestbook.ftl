@@ -64,7 +64,7 @@
 <#--        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/lib/highlight.min.js"></script>-->
 <#--        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/simplemde@1.11.2/dist/simplemde.min.js"></script>-->
 
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/lib/highlight.min.js"></script>
+        <script type="text/javascript" src="https://cdn.staticfile.org/highlight.js/10.0.0/highlight.min.js"></script>
         <script type="text/javascript" src="https://cdn.staticfile.org/simplemde/1.11.2/simplemde.min.js"></script>
 
     </@footer>

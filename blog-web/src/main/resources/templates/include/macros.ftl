@@ -35,8 +35,8 @@
 <#--        <link href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/github.min.css" rel="stylesheet">-->
 
         <link href="https://cdn.staticfile.org/simplemde/1.11.2/simplemde.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/github-markdown-css@2.10.0/github-markdown.min.css" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/github.min.css" rel="stylesheet">
+        <link href="https://cdn.staticfile.org/github-markdown-css/3.0.0/github-markdown.min.css" rel="stylesheet">
+        <link href="https://cdn.staticfile.org/highlight.js/10.0.0/styles/github.min.css" rel="stylesheet">
     </#if>
     <#nested>
 <#--    增加百度自动推送功能-->

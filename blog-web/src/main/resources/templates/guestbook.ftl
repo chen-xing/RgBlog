@@ -61,7 +61,11 @@
     <@footer>
         <script src="https://v1.hitokoto.cn/?encode=js&c=i&select=%23hitokoto" defer></script>
 
+<#--        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/lib/highlight.min.js"></script>-->
+<#--        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/simplemde@1.11.2/dist/simplemde.min.js"></script>-->
+
         <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/lib/highlight.min.js"></script>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/simplemde@1.11.2/dist/simplemde.min.js"></script>
+        <script type="text/javascript" src="https://cdn.staticfile.org/simplemde/1.11.2/simplemde.min.js"></script>
+
     </@footer>
 </@compress>

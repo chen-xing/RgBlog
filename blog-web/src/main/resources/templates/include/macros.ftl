@@ -30,20 +30,15 @@
         }
     </style>
     <#if hasEditor>
-        <link href="https://cdn.jsdelivr.net/npm/simplemde@1.11.2/dist/simplemde.min.css" rel="stylesheet">
+<#--        <link href="https://cdn.jsdelivr.net/npm/simplemde@1.11.2/dist/simplemde.min.css" rel="stylesheet">-->
+<#--        <link href="https://cdn.jsdelivr.net/npm/github-markdown-css@2.10.0/github-markdown.min.css" rel="stylesheet">-->
+<#--        <link href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/github.min.css" rel="stylesheet">-->
+
+        <link href="https://cdn.staticfile.org/simplemde/1.11.2/simplemde.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/github-markdown-css@2.10.0/github-markdown.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/highlight.js@9.12.0/styles/github.min.css" rel="stylesheet">
     </#if>
     <#nested>
-    <script>
-        var _hmt = _hmt || [];
-        (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?a3e7b564007ea8a1787cad287cdbbbd3";
-            var s = document.getElementsByTagName("script")[0];
-            s.parentNode.insertBefore(hm, s);
-        })();
-    </script>
 <#--    增加百度自动推送功能-->
     <script>
         (function(){
@@ -60,7 +55,7 @@
         })();
     </script>
 
-    <script data-ad-client="ca-pub-3531608925757879" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<#--    <script data-ad-client="ca-pub-3531608925757879" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
     <style type="text/css">
         ${config.customCss}
     </style>

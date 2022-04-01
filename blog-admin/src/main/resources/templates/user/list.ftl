@@ -170,7 +170,7 @@
                             return (code && code == 'NORMAL') ? '<span class="label label-success">正常</span>' : '<span class="label label-danger">禁用</span>';
                         }
                     }, {
-                        field: 'lastLoginTime',
+                        field: 'updateTime',
                         title: '最后登录时间',
                         align: 'center',
                         formatter: function (code) {

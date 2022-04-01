@@ -81,7 +81,6 @@
                 (adsbygoogle = window.adsbygoogle || []).push({});
             }
         </script>
-<#--        <a href="https://url.cn/5WEs6cm" target="_blank"><img src="https://ae01.alicdn.com/kf/Hb8b2ee8bfc284689aa813ac3f79f4d4dL.jpg" alt="腾讯云优惠领取" width="100%" height="100%"> </a>-->
     </div>
     <div class="sidebar-module">
         <h5 class="custom-title"><i class="fa fa-tags fa-fw icon"></i><strong>标签云</strong><small></small></h5>

@@ -140,7 +140,6 @@
             </div>
 
             <div class="blog-body" style="margin:0;padding:0;border-radius:0;margin-bottom:20px;box-shadow:none;">
-<#--                <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
                 <!-- 内容页底部广告 -->
                 <ins class="adsbygoogle"
                      style="display:block"
@@ -151,9 +150,6 @@
                 <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
                 </script>
-<#--                <a href="https://promotion.aliyun.com/ntms/yunparter/invite.html?userCode=up4l93vp" target="_blank" rel="external nofollow">-->
-<#--                    <img src="${config.staticWebSite}/img/ad/aliyun_sale_new_1200x110.jpg" alt="阿里云年末福利" class="img-responsive" style="width: 100%;">-->
-<#--                </a>-->
             </div>
 
             <#-- 热门推荐 -->

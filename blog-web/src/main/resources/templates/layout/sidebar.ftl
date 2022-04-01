@@ -54,7 +54,6 @@
         </div>
     </div>
     <div class="sidebar-module" style="margin:0;padding:0;border-radius:0;margin-bottom:20px;box-shadow:none;background: none;">
-<#--        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
         <!-- 右上角广告 -->
         <ins class="adsbygoogle"
              style="display:block"
@@ -194,7 +193,6 @@
             </@zhydTag>
         </ul>
     </div>
-<#--    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
     <!-- 右下角的广告 -->
     <ins class="adsbygoogle"
          style="display:block"

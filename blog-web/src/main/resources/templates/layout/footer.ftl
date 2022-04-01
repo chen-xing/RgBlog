@@ -237,19 +237,7 @@
 <script type="text/javascript" id="customJs">
     ${config.customJs}
 </script>
-<#--加载google ads广告-->
-<script type="text/javascript">
-    function downloadJSAtOnload() {
-        var element = document.createElement("script");
-        element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
-        document.body.appendChild(element);
-    }
-    if (window.addEventListener)
-        window.addEventListener("load", downloadJSAtOnload, false);
-    else if (window.attachEvent)
-        window.attachEvent("onload", downloadJSAtOnload);
-    else window.onload = downloadJSAtOnload;
-</script>
+
 <#--加载百度统计-->
 <script>
     var _hmt = _hmt || [];

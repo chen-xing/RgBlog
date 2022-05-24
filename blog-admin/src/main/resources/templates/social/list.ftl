@@ -81,7 +81,7 @@
     <div class="item form-group">
         <label class="control-label col-md-3 col-sm-3 col-xs-3" for="logo">平台 Logo  <i class="fa fa-question-circle" title="回调地址，选择平台标识后会自动填充，参考 https://github.com/justauth/justauth-oauth-logo，请注意版本"></i></label>
         <div class="col-md-7 col-sm-7 col-xs-7">
-            <input type="text" class="form-control" id="logo" name="logo" placeholder="请输入 logo，如：https://cdn.jsdelivr.net/gh/justauth/justauth-oauth-logo@1.10/github.png"/>
+            <input type="text" class="form-control" id="logo" name="logo" placeholder="请输入 logo，如：https://fastly.jsdelivr.net/gh/justauth/justauth-oauth-logo@1.10/github.png"/>
         </div>
     </div>
     <div class="item form-group">
@@ -153,7 +153,7 @@
             var val = $this.val();
             var webUrl = '${config.siteUrl}';
             $("#redirectUri").val(webUrl + "/oauth/social/" + val);
-            $("#logo").val("https://cdn.jsdelivr.net/gh/justauth/justauth-oauth-logo@1.10/" + val.toLowerCase() + ".png");
+            $("#logo").val("https://fastly.jsdelivr.net/gh/justauth/justauth-oauth-logo@1.10/" + val.toLowerCase() + ".png");
         })
         function operateFormatter(code, row, index) {
             var trId = row.id;

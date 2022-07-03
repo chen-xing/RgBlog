@@ -16,7 +16,7 @@ import java.text.MessageFormat;
 public class UrlBuildUtil {
 
     private static final String GET_LOCATION_BY_IP = "{0}?ak={1}&coor=gcj02&ip={2}";
-    private static final String BAIDU_PUSH_URL_PATTERN = "{0}{1}?site={2}&token={3}";
+    private static final String BAIDU_PUSH_URL_PATTERN = "{0}{1}?site={2}&token={3}&type=daily";
 
     /**
      * 根据ip获取定位信息的接口地址

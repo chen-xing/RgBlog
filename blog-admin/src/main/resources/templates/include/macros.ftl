@@ -9,14 +9,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>${config.siteName}后台管理系统</title>
     <link href="/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link href="https://fastly.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://oss.94rg.com/cdn/bootstrap@3.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fastly.jsdelivr.net/npm/jquery-confirm@3.3.2/dist/jquery-confirm.min.css" rel="stylesheet">
-    <link href="https://fastly.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.min.css" rel="stylesheet">
+    <link href="https://cdn.staticfile.org/jquery-confirm/3.3.2/jquery-confirm.min.js" rel="stylesheet">
+    <link href="https://cdn.staticfile.org/fancybox/2.1.5/jquery.fancybox.min.js" rel="stylesheet">
     <link href="https://fastly.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.css" rel="stylesheet">
     <link href="https://fastly.jsdelivr.net/npm/toastr@2.0.3/nuget/content/content/toastr.min.css" rel="stylesheet">
     <link href="https://fastly.jsdelivr.net/npm/icheck@1.0.2/skins/square/green.min.css" rel="stylesheet">
-    <link href="https://fastly.jsdelivr.net/npm/bootstrap-table@1.11.1/dist/bootstrap-table.min.css" rel="stylesheet">
+    <link href="https://cdn.staticfile.org/bootstrap-table/1.11.1/bootstrap-table.min.css" rel="stylesheet">
     <link href="https://fastly.jsdelivr.net/npm/daterangepicker@2.1.25/daterangepicker.min.css" rel="stylesheet">
     <link href="https://fastly.jsdelivr.net/npm/bootstrap-datetimepicker-npm@4.17.37-npm/build/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
     <link href="https://fastly.jsdelivr.net/npm/@ztree/ztree_v3@3.5.37/css/metroStyle/metroStyle.min.css" rel="stylesheet">

@@ -6,18 +6,18 @@
         staticPath: '${config.staticWebSite}'
     }
 </script>
-<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/jquery@1.11.1/dist/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.11.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://oss.94rg.com/cdn/bootstrap@3.3.0/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/jquery-lazyload@1.9.3/jquery.lazyload.min.js"></script>
-<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/jquery-confirm@3.3.2/dist/jquery-confirm.min.js"></script>
-<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/jquery.fancybox@2.1.5/source/jquery.fancybox.min.js"></script>
-<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/mustache@2.3.0/mustache.min.js"></script>
-<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/xss@0.3.3/dist/xss.min.js"></script>
-<script type="text/javascript" src="https://fastly.jsdelivr.net/npm/nprogress@0.2.0/nprogress.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/jquery_lazyload/1.9.3/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/mustache.js/2.3.0/mustache.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/js-xss/0.3.3/xss.min.js"></script>
+<script type="text/javascript" src="https://cdn.staticfile.org/nprogress/0.2.0/nprogress.min.js"></script>
 <script src="https://fastly.jsdelivr.net/npm/toastr@2.0.3/nuget/content/scripts/toastr.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/icheck@1.0.2/icheck.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/bootstrap-table@1.11.1/dist/bootstrap-table.min.js"></script>
-<script src="https://fastly.jsdelivr.net/npm/bootstrap-table@1.11.1/dist/locale/bootstrap-table-zh-CN.min.js"></script>
+<script src="https://cdn.staticfile.org/iCheck/1.0.2/icheck.min.js"></script>
+<script src="https://cdn.staticfile.org/bootstrap-table/1.11.1//bootstrap-table.min.js"></script>
+<script src="https://cdn.staticfile.org/bootstrap-table/1.11.1//locale/bootstrap-table-zh-CN.min.js"></script>
 <script src="https://fastly.jsdelivr.net/npm/daterangepicker@2.1.25/moment.min.js"></script>
 <script src="https://fastly.jsdelivr.net/npm/daterangepicker@2.1.25/daterangepicker.min.js"></script>
 <script src="https://fastly.jsdelivr.net/npm/bootstrap-datetimepicker-npm@4.17.37-npm/build/js/bootstrap-datetimepicker.min.js"></script>

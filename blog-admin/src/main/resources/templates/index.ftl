@@ -274,7 +274,7 @@
 <#-- 网站首页的项目介绍内容 -->
 <#--<@aboutOneBlog></@aboutOneBlog>-->
 <@footer>
-<script src="https://fastly.jsdelivr.net/npm/echarts@4.1.0/dist/echarts.min.js"></script>
+<script src="https://cdn.staticfile.org/echarts/4.1.0/echarts.min.js"></script>
 <script src="/assets/js/zhyd.echarts.js"></script>
 <#-- 显示或者关闭首页的弹窗，当点击“不再显示后”，如果清缓存，这个弹窗仍然会再次显示 -->
 <script type="text/javascript">

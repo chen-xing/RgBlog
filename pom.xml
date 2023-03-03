@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zyd</groupId>
-    <artifactId>blog</artifactId>
+    <artifactId>RgBlog</artifactId>
     <version>2.2.5</version>
     <packaging>pom</packaging>
     <modules>
@@ -14,7 +14,7 @@
         <module>blog-file</module>
     </modules>
 
-    <name>blog</name>
+    <name>RgBlog</name>
     <description>OneBlog是一款简洁美观、自适应的Java博客系统</description>
 
     <parent>

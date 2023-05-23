@@ -178,8 +178,8 @@ ps: 虽然我知道，大部分人都是来了**直接下载源代码**后就潇
 ...
 
 # Who is using?
-- [人工博客](https://www.94rg.com/)
-- [程序员导航网](https://www.gzcx.net/)
+- [人工博客](https://www.gzcx.net/)
+- [程序员导航网](https://nav.gzcx.net/)
 
 ----
 

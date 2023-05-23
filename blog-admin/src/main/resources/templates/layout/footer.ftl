@@ -7,7 +7,7 @@
     }
 </script>
 <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://oss.94rg.com/cdn/bootstrap@3.3.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://static.gzcx.net/cdn/bootstrap@3.3.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/jquery_lazyload/1.9.3/jquery.lazyload.min.js"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/fancybox/2.1.5/jquery.fancybox.min.js"></script>

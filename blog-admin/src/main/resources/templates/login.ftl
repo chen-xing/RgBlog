@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>${config.siteName}后台管理系统</title>
     <link href="/assets/images/favicon.ico" rel="icon">
-    <link href="https://oss.94rg.com/cdn/bootstrap@3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://static.gzcx.net/cdn/bootstrap@3.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://cdn.staticfile.org/jquery-confirm/3.2.0/jquery-confirm.min.css" rel="stylesheet">
     <link href="https://cdn.staticfile.org/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
@@ -73,7 +73,7 @@
 </body>
 
 <script type="text/javascript" src="https://cdn.staticfile.org/jquery/1.11.1/jquery.min.js"></script>
-<script type="text/javascript" src="https://oss.94rg.com/cdn/bootstrap@3.3.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://static.gzcx.net/cdn/bootstrap@3.3.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdn.staticfile.org/jquery-confirm/3.3.2/jquery-confirm.min.js"></script>
 <script src="/assets/js/zhyd.tool.js"></script>
 <script>

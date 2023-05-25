@@ -125,7 +125,8 @@
                     <p>
                     <ul class="list-unstyled list-inline">
                         <li>其他连接：</li>
-                        <li><a href="${config.siteUrl}/sitemap.html" target="_blank" title="网站地图" data-toggle="tooltip"
+                        <li><a href="${config.siteUrl}/sitemap.html" target="_blank" title="网站地图"
+                               data-toggle="tooltip"
                                data-placement="bottom"><i class="fa fa-map-o fa-fw"></i>网站地图</a></li>
                         <li><a href="${config.siteUrl}/recommended" title="站长推荐" data-toggle="tooltip"
                                data-placement="bottom"><i class="fa fa-thumbs-o-up fa-fw"></i>站长推荐</a></li>
@@ -137,9 +138,12 @@
                                data-placement="bottom"><i class="fa fa-file-o fa-fw"></i>免责声明</a></li>
                     </ul>
                     </p>
-                    <p>托管于<a href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wylo59db"
-                             target="_blank" title="阿里云-为了无法计算的价值" data-toggle="tooltip" data-placement="bottom"
-                             rel="external nofollow">阿里云</a> & <a
+                    <p>
+                        托管于<a
+                                href="https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=wylo59db"
+                                target="_blank" title="阿里云-为了无法计算的价值" data-toggle="tooltip"
+                                data-placement="bottom"
+                                rel="external nofollow">阿里云</a> & <a
                                 href="https://portal.qiniu.com/signup?code=3l8yx2v0f21ci" target="_blank"
                                 title="七牛云-国内领先的企业级云服务商" data-toggle="tooltip" data-placement="bottom"
                                 rel="external nofollow">七牛云</a><#if config.recordNumber!> · <a
@@ -170,10 +174,12 @@
                                     ${item.name!}
                                 </a>
                             </#list>
-                            <a href="${config.siteUrl}/links" title="更多链接" data-toggle="tooltip" data-placement="right"><i
+                            <a href="${config.siteUrl}/links" title="更多链接" data-toggle="tooltip"
+                               data-placement="right"><i
                                         class="fa fa-plus"></i>更多链接</a>
                         <#else>
-                            <a href="${config.siteUrl}/links" title="申请友链" data-toggle="tooltip" data-placement="right">申请友链</a>
+                            <a href="${config.siteUrl}/links" title="申请友链" data-toggle="tooltip"
+                               data-placement="right">申请友链</a>
                         </#if>
                     </div>
                 </#if>
@@ -239,13 +245,12 @@
 </script>
 <#-- 增加百度自动推送功能-->
 <script>
-    (function(){
+    (function () {
         var bp = document.createElement('script');
         var curProtocol = window.location.protocol.split(':')[0];
         if (curProtocol === 'https') {
             bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        }
-        else {
+        } else {
             bp.src = 'http://push.zhanzhang.baidu.com/push.js';
         }
         var s = document.getElementsByTagName("script")[0];
@@ -258,20 +263,22 @@
         element.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js";
         document.body.appendChild(element);
     }
-    if (window.addEventListener){
+
+    if (window.addEventListener) {
         window.addEventListener("load", downloadJSAtOnload, false);
     } else if (window.attachEvent) {
         window.attachEvent("onload", downloadJSAtOnload);
-    }else{
+    } else {
         window.onload = downloadJSAtOnload;
     }
 </script>
 <#--加载百度统计-->
+
 <script>
     var _hmt = _hmt || [];
-    (function() {
+    (function () {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?a3e7b564007ea8a1787cad287cdbbbd3";
+        hm.src = "https://hm.baidu.com/hm.js?8c7c55bb580b2452b55dfa6a8658581a";
         var s = document.getElementsByTagName("script")[0];
         s.parentNode.insertBefore(hm, s);
     })();

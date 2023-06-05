@@ -436,7 +436,9 @@ public class BizArticleServiceImpl implements BizArticleService {
         }
         List<Article> list = new ArrayList<>();
         for (BizArticle entity : entityList) {
-            list.add(new Article(entity));
+            if (entity.getStatus() != 0) {
+                list.add(new Article(entity));
+            }
         }
         return list;
     }

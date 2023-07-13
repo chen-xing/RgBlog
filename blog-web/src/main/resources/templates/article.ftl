@@ -139,18 +139,18 @@
                 </nav>
             </div>
 
-            <div class="blog-body" style="margin:0;padding:0;border-radius:0;margin-bottom:20px;box-shadow:none;">
-                <!-- 内容页底部广告 -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-3531608925757879"
-                     data-ad-slot="4537878796"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
+<#--            <div class="blog-body" style="margin:0;padding:0;border-radius:0;margin-bottom:20px;box-shadow:none;">-->
+<#--                <!-- 内容页底部广告 &ndash;&gt;-->
+<#--                <ins class="adsbygoogle"-->
+<#--                     style="display:block"-->
+<#--                     data-ad-client="ca-pub-3531608925757879"-->
+<#--                     data-ad-slot="4537878796"-->
+<#--                     data-ad-format="auto"-->
+<#--                     data-full-width-responsive="true"></ins>-->
+<#--                <script>-->
+<#--                    (adsbygoogle = window.adsbygoogle || []).push({});-->
+<#--                </script>-->
+<#--            </div>-->
 
             <#-- 热门推荐 -->
             <div class="blog-body clear overflow-initial">

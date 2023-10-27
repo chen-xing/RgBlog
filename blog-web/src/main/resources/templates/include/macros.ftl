@@ -26,7 +26,8 @@
     </#if>
     <#nested>
 
-<#--    <script data-ad-client="ca-pub-3531608925757879" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3531608925757879"
+            crossorigin="anonymous"></script>
     <style type="text/css">
         ${config.customCss}
     </style>

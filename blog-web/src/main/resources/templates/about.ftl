@@ -41,6 +41,8 @@
                     <p>下面的几个图我比较喜欢，能够很好的阐释<b style="color:#20a0ff;">人工</b>的寄寓</p>
                     <p><img src="http://static.gzcx.net/oneblog/20200314112104726.jpg-94rg002" style="line-height: 160%; margin: 4px 0 10px; box-sizing: border-box; vertical-align: top; max-width: 100%;" /><br />  <img src="http://static.gzcx.net/oneblog/20200314112023114.jpg-94rg002" style="line-height: 160%; margin: 4px 0 10px; box-sizing: border-box; vertical-align: top; max-width: 100%;" /><img src="http://static.gzcx.net/oneblog/20200314112113750.jpeg-94rg002" style="line-height: 160%; margin: 4px 0 10px; box-sizing: border-box; vertical-align: top; max-width: 100%;" /><br /></p>
                     <p style="line-height: 160%; box-sizing: content-box; margin: 10px 0; color: #20a0ff;font-size:16px;text-indent:2em;;">成功没有捷径，让我们一起秉着<strong style="line-height: 160%; box-sizing: content-box; font-weight: 700;color:#61be33;">人工</strong>精神，踏踏实实地走好未来的每一步，做最好的自己。不要让明天的你痛恨今天的自己</p>
+                    <p>最新的域名已经更新为为www.gzcx.net寓意为像<b style="color:#20a0ff;">贵族</b>的一样去思考。而且老域名94rg
+                        .com存在域名被污染的情况，所以就放弃了，之前不懂买的时候没关注</p>
                 </div>
                 <h5 class="custom-title"><i class="fa fa-copyright fa-fw"></i><strong>关于版权</strong><small></small></h5>
                 <div class="info">
